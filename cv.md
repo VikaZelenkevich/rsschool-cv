@@ -23,5 +23,6 @@ function multiply(a, b){
 
 ## _Education_
  _Belarusian State University, Faculty of Radiophysics and Computer Technologies_
+ 
  ## _English_
 _International House: Intermediate (B1)_
