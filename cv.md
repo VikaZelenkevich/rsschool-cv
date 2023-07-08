@@ -7,7 +7,7 @@
 * _GitHub: @VikaZelenkevich_
 
 ## _About myself_
-#### _I am 23 years old. I want to learn programming because I'm intrested in how websites and programs are built._
+#### _I'm 23 years old. I want to learn programming because I'm intrested in how websites and programs are built._
 
 ## _Skills_
 * _Java_
