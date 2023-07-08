@@ -20,7 +20,7 @@ function multiply(a, b){
     return a * b;
 }
 ~~~
----
+
 ## _Education_
  _Belarusian State University, Faculty of Radiophysics and Computer Technologies_
  ## _English_
