@@ -20,11 +20,9 @@ function multiply(a, b){
     return a * b;
 }
 ~~~
- ## _English_
-_International House: Intermediate (B1)_
-
-___
 ## _Education_
  _Belarusian State University, Faculty of Radiophysics and Computer Technologies_
  
+ ## _English_
+ _International House: Intermediate B1_
 
