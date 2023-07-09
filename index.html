@@ -3,10 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>CV</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Victoria Zelenkevich</h1>
+    <div class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+          </nav>
+    </div>
+    <div class="container">
+            <div class="sidebar">
+                     <img src="assets/img/me.jpg" alt="myphoto">
+                     <section class="contacts" id="contacts">
+                            <h3>Contacts:</h3>
+                        <ul>
+                            <li>Email: v.zelenkevich27@gmail.com</li>
+                            <li>Telegram: @holy_tori</li>
+                            <li>GitHub: @VikaZelenkevich</li>
+                        </ul>
+                     </section>
+                     <section class="skills" id="skills">
+                        <h3>Skills:</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>HTML</li>    
+                     </section>
+            </div>
+            <div class="main">
+                <section class="profile" id="profile">
+                    <h1>VICTORIA ZELENKEVICH</h1>
+                    <p><b>Future Front-End Developer</b></p>
+                </section>
+                <section class="summary" id="summary">
+                    <h2>Summary:</h2>
+                    <p><em>I'm 23 years old. I want to learn programming because I'm intrested in how websites and programs are built.</em></p>
+                </section>
+                <section class="education" id="education">
+                    <h2>Education:</h2>
+                    <p><em>Belarusian State University, Faculty of Radiophysics and Computer Technologies</em></p>
+                </section>
+                <section class="code" id="code">
+                    <h2>Example of code:</h2>
+                    <pre>
+                        <code>
+                            function multiply(a, b){
+                                return a * b;
+                            }
+                        </code>
+                    </pre>
+                </section>
+                <section class="english" id="english">
+                    <h2>English:</h2>
+                    <p><em>International House: Intermediate (B1)</em></p>
+                </section>
+            </div>
+    </div>
+    <div class="footer">
+        <a class="mygithub" href="https://github.com/VikaZelenkevich">
+            <img class="github-logo" src="assets/img/github-logo.png">
+            <p>My Github</p>
+        </a>
+        <p>2023</p>
+        <a href="https://rs.school/js/">
+            <img class="rsschool-logo" src="asserts/img/logo.svg" alt="rsshool">
+        </a>
+
+    </div>
 </body>
 </html>
